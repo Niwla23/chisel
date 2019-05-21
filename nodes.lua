@@ -19,7 +19,7 @@ minetest.register_node("chisel:dirt_chunky", {
 })
 
 minetest.register_node("chisel:dirt_cobble", {
-	description = S("Chunky Dirt"),
-	tiles = {"chisel_dirt_chunky.png"},
+	description = S("Cobble Dirt"),
+	tiles = {"chisel_dirt_cobble.png"},
 	groups = {cracky=3, stone=1}
 })
