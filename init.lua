@@ -1,6 +1,5 @@
+chisel = {}
 
-
-local path = minetest.get_modpath("chisel")
-dofile(path .. "/nodes.lua")
---dofile(path .. "/chisel.lua")
---dofile(path .. "/api.lua")
+dofile(minetest.get_modpath('chisel')..'/chisel.lua')
+dofile(minetest.get_modpath('chisel')..'/api.lua')
+dofile(minetest.get_modpath('chisel')..'/nodes.lua')
