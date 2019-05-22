@@ -254,6 +254,7 @@ function chisel.register_chisel(name, chiseltable)
 		description = chiseltable.description,
 		inventory_image = chiseltable.inventory_image,
 		groups = {chisel = 1},
+		stack_max = 1,
 		
 		on_secondary_use = function(itemstack, user)
 			return open_chisel(itemstack, user, chiseltable.width, chiseltable.height, chiseltable.sound_open)
