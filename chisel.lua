@@ -1,3 +1,5 @@
+--test
+
 
 local function get_formspec(name, width, height)
 	local sizewidth = 8
